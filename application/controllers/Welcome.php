@@ -20,6 +20,6 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('welcome_message');
+		echo "Perkenalkan <br>Nama : Shofia Zilfa Nurzanah<br>Kelas : 12.3B.17";
 	}
 }
